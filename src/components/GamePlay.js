@@ -32,7 +32,7 @@ export default function GamePlay() {
                     </div>
                     <p className="text-sm font-semibold">Total Score</p>
                 </div>
-                <div>
+                <div className="px-2">
                     <div className="flex gap-4 mb-2">
                         {
                             numbers?.map((number) => (
