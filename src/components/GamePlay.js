@@ -25,7 +25,7 @@ export default function GamePlay() {
 
     return (
         <div>
-            <div className="flex my-12 mx-40  items-center justify-between ">
+            <div className="flex my-12 items-center justify-around flex-wrap">
                 <div className="flex flex-col items-center">
                     <div className="text-6xl font-bold mb-2">
                         {totalScore}
